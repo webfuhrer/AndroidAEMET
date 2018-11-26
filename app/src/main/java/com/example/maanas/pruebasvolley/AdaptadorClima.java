@@ -20,6 +20,14 @@ public class AdaptadorClima extends BaseAdapter {
         this.lista_climas = lista_climas;
     }
 
+    public void setLista_climas(ArrayList<ClimaDia> lista_climas) {
+        this.lista_climas = lista_climas;
+    }
+
+    public ArrayList<ClimaDia> getLista_climas() {
+        return lista_climas;
+    }
+
     @Override
     public int getCount() {
         return lista_climas.size();
